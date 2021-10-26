@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: gray;
+}
+.header-area{
+	background-color: crimson;
+
+}
+.header-content{
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.burger-menu i{
+	color: #fff;
+	font-size: 20px;
+}
+
+.socials a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 5px;
+	font-size: 16px;
+}
+.content{
+	width: 90%;
+	margin: auto;
+}
+.content p{
+	text-align: justify;
+	color: #fff;
+	font-size: 16px;
+	line-height:1.5;
+}
+.footer{
+	
+	background-color: black;
+	
+}
+.text{
+	
+		width: 90%;
+		margin: auto;
+	
+}
+.text p{
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+	font-size: 15px;
+	margin: 0px;
+	padding: 20px 0;
+}
+.off-canvas-menu{
+	background-color: #262626;
+	height: 100%;
+	margin-left: -300px;
+	padding: 11px 0px;
+	position: fixed;
+	width: 300px;
+	transition: 0.3s;
+
+}
+.active{
+	margin-left: 0;
+}
+.off-canvas-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+}
+
+.off-canvas-menu ul li a{
+	text-decoration: none;
+	border-bottom: 1px solid #555;
+	color: #fff;
+	padding: 20px;
+	font-size: 25px;
+	display: block;
+
+}
+.cross-sign{
+	color: #fff;
+	cursor: pointer;
+	padding: 25px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
